@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loginPage</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        #cant{
+            width: 67%;
+            height: 611px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            background-color: rgb(153, 102, 219);
+        }
+        #box{
+            width: 38%;
+            height: 550px;
+            margin-top:30px ;
+            border-radius: 10px;
+            background-color: aliceblue;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        h1{
+           margin: 70px 0px 40px 0px;
+           text-align: center;
+        }
+        #box>div{
+            line-height: 20px;
+            margin: 0px 30px 0px 30px;
+        }
+        #box>div>input{
+            border: 0px;
+            background-color: aliceblue;
+            font-size: 20px;
+            padding-top:30px ;
+        }
+        hr{
+            border: 1px solid rgb(71, 67, 67);
+        }
+        button{
+            color: white;
+            width: 100%;
+            font-size: 20px;
+            margin-top: 20px;
+            padding: 12px 0px 12px 0px;
+            border: none;
+            background-color: rgb(153, 102, 219);
+        }
+        #box>div:last-child{
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+ </head>
+    <body>
+        <div id="cant">
+            <div id="box">
+                <h1>Login</h1>
+                <div>
+                    <input type="text" placeholder="Email">
+                    <hr>
+                </div>
+                
+                <div>
+                    <input type="password" placeholder="Password">
+                    <hr>
+                </div>
+                <div>
+                    <button>Login</button>
+                </div>  
+                <div>
+                    <p>Forgot <a href="">Password?</a></p>
+                    <p>Don't have an account? <a href="">Sign up</a></p>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+ </html>
