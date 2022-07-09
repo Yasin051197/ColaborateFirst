@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Inter:wght@300&family=Roboto:wght@100&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;1,600&display=swap" rel="stylesheet">
+<style>
+    #main{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        /* border: 2px solid blue;   */
+    }
+    #main>div{
+        /* border: 2px solid red; */
+        margin: auto;
+      place-items: center;
+      display: inline-block;
+      text-align: center;
+      font-family: 'Inter'
+    }
+    #main>div>img{
+        width: 61%;
+        text-align: center;
+    }
+    #main>:last-child>img{
+        width: 70%;
+        text-align: center;
+    }
+    #main>div>p{
+        font-size: 30px;
+        margin-top: -20px;
+        text-align: left;
+        font-weight: bold;
+        color: gray;
+    }
+    #main>div>h2{
+        font-size: 40px;
+        margin-top: 20px;
+        text-align: left;
+        font-weight: bold;
+    }
+    div :nth-child(3){
+        margin-top: 20px;
+    }
+    #line{
+        text-decoration: line-through;
+        color: gray;
+    }
+    #clr{
+        color: green;
+    }
+</style>
+</head>
+<body>
+    <div id="main">
+        <div>
+            <img src="https://m.media-amazon.com/images/I/71-xyn+Zb3S._UY879_.jpg" alt="">
+            <h2>Pause</h2>
+            <p>Men Cotton Long Sleeves  Shrug</p>
+            <h2>₹ 359 <span id ="line"> ₹1499</span> <span id="clr"> -76%</span> </h2> 
+        </div>
+        <div>
+            <img src="https://assetscdn1.paytm.com/images/catalog/product/A/AP/APPJUBINATION-SJERS295568BD3913AD/1562955990957_0..jpg?imwidth=320&impolicy=hq" alt="">
+            <h2>JUBINATION</h2>
+            <p>Men Wool Sleeveless Sweater Pack Of </p>
+            <h2>₹ 799 <span id ="line"> ₹1499</span> <span id="clr"> -47%</span> </h2> 
+        </div>
+    </div>
+</body>
+</html>
